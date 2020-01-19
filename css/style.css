@@ -1,0 +1,228 @@
+@font-face {
+    src: url(extrafonts/Quicksand-Light.ttf);
+    /*src: url(extrafonts/SourceSansPro-Light.ttf);*/
+    /*src: url(extrafonts/Gayathri-Regular.ttf);*/
+    font-family: Quicksand-Light ;
+}
+@font-face {
+    src: url(extrafonts/SourceSansPro-Light.ttf);
+    font-family: SourceSansPro-Light ;
+}
+@font-face {
+    src: url(extrafonts/Gayathri-Regular.ttf);
+    font-family: Gayathri-Regular ;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+@media only screen and (min-width: 320px) and (max-width: 929px) {
+    body{
+        margin: 0;
+        background-color: #ffffff;
+        display: block;
+    }
+}
+
+img{
+    block-size: 270px;
+}
+
+#myVid{
+    position: fixed;
+    right: 0;
+    bottom: -20px;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -100;
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+}
+
+        /* Navigation bar */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #968480;
+    overflow: hidden;
+    top: 0;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.menu a{
+    color: #00ffff ;
+}
+
+.menu a:hover{
+    background-color: #fff2cc;
+}
+
+nav {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    position: sticky;
+    
+}   
+
+        /* header h1 h2 */
+#section0{
+    text-transform: none;
+    text-align: center;
+    line-height: 10px;
+}
+
+        /* main */
+.section1 h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+}
+.section1{
+    display: grid;
+}
+#imgHa1{
+    float: right;
+    padding: 1px;
+    border: solid #b45f06 1px;
+    margin-right: 250px;
+}
+#imgHa2{
+    float: right;
+    padding: 1px;
+    border: solid #e6b8af 1px;
+    margin-right: 25px;
+}
+.para1{
+    font-family: Quicksand-Light;
+    font-size: 21px;
+    margin-left: 100px;
+    letter-spacing: 1px;
+}
+.maincontent-footer {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+        /*secondary*/
+
+.section2{
+    display: grid;
+}
+.section2 h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+}
+#img2{
+    float: right;
+    clear: right;
+    padding: 2px;
+    margin-right: 350px;
+    border: solid #980000 1px;
+}
+.para2{
+    font-family: SourceSansPro-Light;
+    font-size: 21px;
+    margin-left: 100px;
+    letter-spacing: 1.5px;
+}
+.secondarycontent-footer {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+        /*sport*/
+@media only screen and (min-width: 320px) and (max-width: 929px) {
+.section3{
+    display: grid;
+}
+}
+.section3 header{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+.sportClubList ul li{
+    float: left;
+    overflow: hidden;
+}
+.sport a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 450px;
+}
+.sport img{
+    float: right;
+    clear: right;
+    padding: 1x;
+    margin-right: 550px;
+    border: solid #000000 1px;
+}
+.sport p{
+    font-family: Gayathri-Regular;
+    font-size: 24px;
+    margin-left: 450px;
+    letter-spacing: 1.5px;
+}
+.sportcontent-footer {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+        /*Referral*/
+aside {
+    margin: 10px;
+    width: 450px;
+    position: relative;
+    float: right;
+    right: 5%;
+}
+#referralcontent {
+    font-size: 17px;
+}
+
+        /* Contact */
+#contactcontent{
+    margin-top: 600px;
+    font-size: 15px;    
+}
+#contactcontent header {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+textarea{
+    height:150px;
+    width:100%;
+}
